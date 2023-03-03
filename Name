@@ -1,0 +1,4 @@
+= Excel.CurrentWorkbook(){[Name="Name Created in Excel"]}[Content]{0}[Column1]
+= FilePath & "\CycleCount.csv"
+CSV Sample
+= Csv.Document(File.Contents(FullPathToFile1),[Delimiter=",", Columns=11, Encoding=1252, QuoteStyle=QuoteStyle.None])
